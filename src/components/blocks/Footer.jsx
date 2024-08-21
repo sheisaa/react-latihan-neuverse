@@ -1,37 +1,26 @@
+import React from "react"
+
 export default function Footer() {
     return (
-        <footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
-            <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-                <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-                    © 2023{" "}
-                    <a href="https://flowbite.com/" className="hover:underline">
-                        Flowbite™
-                    </a>
-                    . All Rights Reserved.
-                </span>
-                <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-                    <li>
-                        <a href="#" className="hover:underline me-4 md:me-6">
-                            About
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="hover:underline me-4 md:me-6">
-                            Privacy Policy
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="hover:underline me-4 md:me-6">
-                            Licensing
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" className="hover:underline">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
+        <nav>
+            <div className="container p-5 flex items-center justify-between mt-5">
+                <img src="/logo (2).svg" alt="logo" />
+
+                <div className="flex items-center gap-5">
+                    <a href="#">Prices</a>
+                    <a href="#">About</a>
+                    <a href="#">Contacts</a>
+                </div>
+
+                <div className="flex items-center gap-5">
+                    <img src="Link (1).png" alt="facebook" />
+                    <img src="Link (2).png" alt="twitter" />
+                </div>
             </div>
-        </footer>
+            <div className="text-center">
+                <p>Copyright © 2021 Amiso. All rights reserved.</p>
+            </div>
+        </nav>
+
     )
 }
